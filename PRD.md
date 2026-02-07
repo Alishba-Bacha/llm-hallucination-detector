@@ -29,21 +29,21 @@ This problem **cannot be solved with a single LLM response** because it requires
 ### Success Metrics
 
 #### Phase 1:  
- **Accuracy:** 70% recall, 70% precision on hallucination detection
- **Speed:** <60 seconds processing time for research abstracts
- **Usability:** 10 satisfied beta users from target research lab
- **Coverage:** Processes arXiv CS abstracts successfully
+ - **Accuracy:** 70% recall, 70% precision on hallucination detection
+ - **Speed:** <60 seconds processing time for research abstracts
+ - **Usability:** 10 satisfied beta users from target research lab
+ - **Coverage:** Processes arXiv CS abstracts successfully
 
 #### Phase 2:
-**Accuracy:** 85% recall, 80% precision on full papers
-**Speed:** <5 minutes for 10-page PDFs
-**Coverage:** Supports computer science and biology domains
+- **Accuracy:** 85% recall, 80% precision on full papers
+- **Speed:** <5 minutes for 10-page PDFs
+- **Coverage:** Supports computer science and biology domains
 
 #### Phase 3: 
-**Accuracy:** 90% recall, 85% precision across domains
-**Speed:** <3 minutes average processing time
-**Usability:** 100+ papers processed with positive feedback
-**Coverage:** Integrates with Overleaf/arXiv submission systems
+- **Accuracy:** 90% recall, 85% precision across domains
+- **Speed:** <3 minutes average processing time
+- **Usability:** 100+ papers processed with positive feedback
+- **Coverage:** Integrates with Overleaf/arXiv submission systems
 
 #### Tool & Data Inventory
 ### 1. **Academic Databases & APIs:**
