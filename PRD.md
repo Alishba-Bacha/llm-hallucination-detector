@@ -48,7 +48,7 @@ This problem **cannot be solved with a single LLM response** because it requires
 #### Tool & Data Inventory
 ### 1. **Academic Databases & APIs:**
 ## Primary Sources for Evidence Retrieval
-**ARXIV_API** = "https://api.arxiv.org/"  
+**ARXIV_API** = "[https://api.arxiv.org/](http://export.arxiv.org/api/)"  
 - Usage: Search papers by keyword, author, title
 - Rate Limit: 1 request/second, 5000 requests/day
 - Data: Abstracts, full texts (when available), metadata
@@ -60,21 +60,17 @@ This problem **cannot be solved with a single LLM response** because it requires
 - Data: Citations, references, field of study tags
 - Cost: Free tier available
 
-**PUBMED_API** = "https://eutils.ncbi.nlm.nih.gov/"  
+**PUBMED_API** = "[https://eutils.ncbi.nlm.nih.gov/](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/)"  
 - Usage: Retrieve biomedical and life sciences papers
 - Rate Limit: 10 requests/second
 - Data: Full-text articles, MeSH terms, clinical data
 - Cost: Free
 
-**CROSSREF_API** = "https://api.crossref.org/"  
+**CROSSREF_API** = "[https://api.crossref.org/](https://api.crossref.org/)"  
 - Usage: Resolve DOIs, retrieve publication metadata
 - Rate Limit: 50 requests/second (polite pool)
 - Data: Publication dates, journals, authors, citations
 - Cost: Free
-
-**IEEE_XPLORE_API** = "https://ieeexploreapi.ieee.org/"  
-- Usage: Access engineering and electronics papers
-- Cost: Open access papers
 
 #### Quantitative Metrics:
 1. **Detection Performance:**
